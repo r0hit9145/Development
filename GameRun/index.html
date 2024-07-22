@@ -1,0 +1,71 @@
+<!-- Gaming project of rock, paper and scissors -->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Game-Pro</title>
+
+        <!-- connecting css into html page -->
+        <link rel="stylesheet" href="beauty.css" />
+    </head>
+
+    <!-- body -->
+    <body>
+    <header>
+        <section>
+        <!-- main heading h1 -->
+
+        <h1>Rock Paper Scissors</h1>
+
+        <!-- main classes -->
+        <div class="choices">
+
+            <!-- first choice rock image -->
+            <div class="choice" id="rock">
+                <img src="./images/rock.png"/>
+            </div>
+
+            <!-- second choice paper image -->
+            <div class="choice" id="paper">
+                <img src="./images/Paper.png" />
+            </div>
+
+            <!-- third choice scissors image -->
+            <div class="choice" id="scissors">
+                <img src="./images/scissors.png" />
+            </div>
+
+        </div>
+        </section>
+    </header>
+
+        <!-- second main section for the you and computer score -->
+        <main>
+
+            <div class="score_board">
+
+                <!-- for the user's score -->
+                <div class="score">
+                    <!-- updation need -->
+                    <p id="my_score">0</p>
+                    <p>You score</p>
+                </div>
+
+                <!-- for the computer score -->
+                <div class="score">
+                    <!-- updation need -->
+                    <p id="comp_score">0</p>
+                    <p>Computer score</p>
+                </div>
+            </div>
+
+        </main>
+            <div class="mesg_container">
+                <p id="move_msg">Play Your Turn!</p>
+            </div>
+        <!-- linked java scripts -->
+        <!-- <script src="Web-Development/Game_Project/Rock_Pr_scessior/Code/brain.js"></script> -->
+        <script src="./Code/brain.js"></script>
+    </body>
+</html>

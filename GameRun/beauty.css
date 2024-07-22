@@ -1,0 +1,116 @@
+/* 
+Using beauty for the project of game.
+ */
+/* website page- margin and padding-- set whole page */
+
+/* for body color */
+/* body{
+    background-color: rgb(234, 241, 234);
+} */
+
+
+*{
+    /* margin-- setup on whole boarder */
+    margin: 0;
+    /* padding- same */
+    padding: 0;
+    /* whole text align- center */
+    text-align: center;
+}
+
+/* let's start styling */
+
+/* h1- heading  */
+h1{
+    background-color:  #041c33;
+    /* text color */
+    color: #fff;
+    /* its height */
+    height: 4rem;
+    /* its vertical center as its height */
+    line-height: 4rem;
+}
+
+/* choices- class*** */
+.choice{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+/* something hovering */
+.choice:hover{
+    /* after hovering blur image or something effects */
+    /* opacity: 0.5;- we don't need in.*/
+    cursor: pointer;
+    background-color: #041c33;
+    display: flex;
+    /* content center */
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* individual images choice */
+img{
+    height: 180px;
+    width: 180px;
+    /* object fitting- if, suppose to the images not fit then */
+    object-fit: cover;
+    /* border radius- if you want to adjust it. */
+    border-radius: 50%;
+}
+
+/* display flex */
+.choices{
+    /* comes up - prallel mode all. */
+    display: flex;
+    /* justify- center */
+    justify-content: center;
+    /* text inside everything */
+    align-items: center;
+    /* if you need to gap */
+    gap: 3rem;
+    /* need a gap from top */
+    margin-top: 5rem;
+}
+
+/* score board */
+.score_board{
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* play turn editing- not class, it has been done with id */
+#move_msg{
+    margin-top: 4rem;
+    font-size: 2.2rem;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #234464;
+    /* text color */
+    color:white;
+    align-items: center;
+    height: 50px;
+    /* content- line adjustment */
+    display: inline;
+    /* padding- inhance border */  
+    padding: 1rem;
+    /* border radius-- covering shape. */
+    /* padding- inhance border */  
+    border-radius: 1rem;
+}
+
+/* hovering the border radius */
+.mesg_container:hover{
+    /* opacity: 1rem; */
+    background-color: white;
+}
+/* class-- msg-container */
+.mesg_container{
+    margin-top: 3rem;
+}
